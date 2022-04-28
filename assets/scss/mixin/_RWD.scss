@@ -1,0 +1,35 @@
+// RWD size
+$XL-media: 1760px;
+$L-media: 1340px;
+$M-media: 966px;
+$S-media: 556px;
+
+// >1760
+@media all and (min-width: $XL-media) {
+    /*   放置需要變更的樣式   */
+}
+
+// 1340-1760
+@media all and (max-width: $XL-media) and (min-width: $L-media) {
+    /*   放置需要變更的樣式   */
+}
+
+// 966-1340
+@media all and (max-width: $L-media) and (min-width: $M-media) {
+    /*   放置需要變更的樣式   */
+}
+
+// 566-966
+@media all and (max-width: $M-media) and (min-width: $S-media) {
+    /*   放置需要變更的樣式   */
+}
+
+// 0-966
+@media all and (max-width: $M-media) {
+    /*   放置需要變更的樣式   */
+}
+
+// 0-556
+@media all and (max-width: $S-media) {
+    /*   放置需要變更的樣式   */
+}
